@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+// this recursive Tree has a leftNode, an element, and a rightNode
+type Tree struct {
+    leftNode  *Tree
+    data      int
+    rightNode *Tree
+}
+
+// this method receives the tree and inserts m in the *data* position i.e. middle if tree
+func(tree *Tree) insert(m int) {
+    // Omooooo
+}
+
+// main function implements the binary tree operation
+func main() {}
